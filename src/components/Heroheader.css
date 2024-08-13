@@ -1,0 +1,38 @@
+.hero-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Be Vietnam Pro';
+}
+
+.result-country p{
+    font-size: 16px;
+    font-weight: 600;
+    color: #6C727F;
+}
+
+.search-sec{
+    max-width: 400px;
+    width: 100%;
+}
+
+.input-text{
+    width: 90%;
+    background-color: #282B30;
+    border: none;
+    outline: none;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    background-image: url('../assets/Search.svg');
+    background-repeat: no-repeat;
+    background-position: 20px;
+    text-align: center;
+    color: #D2D5DA;
+    box-shadow: 0px 10px 20px 0px #1B1D1F;
+}
+
+.input-text::placeholder{
+    color: #6C727F;
+}
