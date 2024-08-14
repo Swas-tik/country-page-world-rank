@@ -27,8 +27,9 @@
 .hero{
     max-width: 1510px;
     background-color: #1b1d1f;
-    height: auto;
+    height: 600px;
     margin: 20px;
+    margin-top: 0px;
     border-radius: 10px;
     padding: 30px;
     border: 1px solid #6C727F;

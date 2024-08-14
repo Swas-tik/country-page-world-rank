@@ -1,0 +1,43 @@
+.body-sec{
+    /* border: 1px solid white; */
+    margin-top: 20px;
+    padding: 20px;
+    font-family: 'Be Vietnam Pro';
+    display: flex;
+}
+.sidebar-section{
+    max-width: 250px;
+    height: auto;
+    /* border: 1px solid #6C727F; */
+}
+
+.sidebar-section p{
+    color: #6C727F;
+    font-weight: 600;
+}
+
+.filter-region{
+    margin-top: 10px;
+    padding: 15px;
+    width: 100%;
+    background-color: inherit;
+    border: 1px solid #282B30;
+    border-radius: 15px;
+    color: #D2D5DA;
+    font-weight: 600;
+    font-size: 16px;
+    outline: none;
+
+}
+
+option{
+    background-color: #1B1D1F;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.heromain-sec{
+    /* border: 1px solid #6C727F; */
+    width: 100%;
+    margin-left: 20px;
+}

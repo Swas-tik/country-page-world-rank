@@ -1,6 +1,6 @@
 import Header from "./components/header.jsx"
 import Hero from "./components/hero.jsx"
-// import './index.css/'
+import './App.css/'
 
 
 export default function App() {

@@ -3,6 +3,8 @@
     justify-content: space-between;
     align-items: center;
     font-family: 'Be Vietnam Pro';
+    /* border: 1px solid white; */
+    padding: 20px;
 }
 
 .result-country p{
@@ -36,3 +38,25 @@
 .input-text::placeholder{
     color: #6C727F;
 }
+
+.region-sec{
+    margin-top: 40px;
+}
+
+.region-sec p{
+    font-size: 16px;
+    padding: 10px;
+}
+
+.continent-sec{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.continent-selected{
+    background-color: #282B30;
+    border-radius: 15px;
+    color: #6C727F;
+}
+
