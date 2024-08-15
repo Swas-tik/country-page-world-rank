@@ -4,6 +4,9 @@
     padding: 20px;
     font-family: 'Be Vietnam Pro';
     display: flex;
+    overflow-y: scroll;
+    max-height: 500px;
+    height: 100%;
 }
 .sidebar-section{
     max-width: 250px;
@@ -39,5 +42,5 @@ option{
 .heromain-sec{
     /* border: 1px solid #6C727F; */
     width: 100%;
-    margin-left: 20px;
+    margin-left: 40px;
 }
