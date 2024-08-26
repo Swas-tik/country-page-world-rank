@@ -1,6 +1,6 @@
 import './Heroheader.css/'
 
-function Heroheader() {
+function Heroheader({setQuery}) {
   return (
     <>
       <div className="hero-header">
@@ -8,9 +8,11 @@ function Heroheader() {
         <div className="search-sec">
           <input className='input-text'
             type="text"
+            onChange={(e)=> setQuery((e.target.value.toLowerCase()))}
             placeholder='Search by Name, Region, Subregion' />
         </div>
       </div>
+    
     </>
   )
 }

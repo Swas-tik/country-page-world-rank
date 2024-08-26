@@ -4,7 +4,6 @@
     padding: 20px;
     font-family: 'Be Vietnam Pro';
     display: flex;
-    overflow-y: scroll;
     max-height: 500px;
     height: 100%;
 }
@@ -43,4 +42,8 @@ option{
     /* border: 1px solid #6C727F; */
     width: 100%;
     margin-left: 40px;
+    overflow-y: scroll;
+}
+.heromain-sec::-webkit-scrollbar{
+    display: none;
 }

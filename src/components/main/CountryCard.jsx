@@ -4,18 +4,20 @@ import { useEffect, useState } from 'react'
 
 
 
-function CountryCard() {
+function CountryCard({query}) {
   const [data, setData] = useState(null);
 
   useEffect(() => {
     CountriesData().then(countries => setData(countries))
   }, [])
-
+    
   return (
     <>
 
        {
-        data ? data.map((country)=> 
+
+
+        data.filter((country)=>country.name.common.toLowerCase().includes(query)).map((country)=> 
       <div className='result-data-container' key={country.car.ccn3}>
         <div className='flag-data-container'>
           <img className='flag-img' src={country.flags.svg} alt="" />
@@ -30,7 +32,8 @@ function CountryCard() {
         <div className='region-data-container'>{country.region}</div>
 
       </div>
-       ) : <p>No Data</p>
+       ) 
+      
       } 
     </>
   )

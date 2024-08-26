@@ -3,12 +3,12 @@ import CountryCard from './main/CountryCard'
 import MainHeader from './main/MainHeader'
 
 
-function HeroMain(){
+function HeroMain({query}){
     return(
         <>
         <div className="heromain-sec">
             <MainHeader/>
-            <CountryCard/>
+            <CountryCard query={query}/>
         </div>
         </>
     )
