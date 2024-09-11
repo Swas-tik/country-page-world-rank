@@ -1,20 +1,21 @@
-import SidebarRegion from "./SidebarRegion"
+import SidebarRegion from "./SidebarRegion";
 
-const Herosidebar = () => {
+const Herosidebar = ({setQuery}) => {
   return (
     <div className="sidebar-section">
       <p>Sort by</p>
-      <select className="filter-region">
-        <option hidden="">Filter by Region</option>
-        <option value="Population">Population</option>
-        <option value="Area">Area</option>
-        <option value="Name">Name</option>
-        <option value="Region">Region</option>
+      <select className="filter-region" onChange={(e)=> setQuery(e.target.value.toLowerCase())}>
+        <option hidden >Filter by Region</option>
+        <option value="Africa">Africa</option>
+        <option value="Americas">Americas</option>
+        <option value="Asia">Asia</option>
+        <option value="Europe">Europe</option>
+        <option value="Oceania">Oceania</option>
       </select>
 
-      <SidebarRegion/>
+      <SidebarRegion />
     </div>
-  )
-}
+  );
+};
 
-export default Herosidebar
+export default Herosidebar;

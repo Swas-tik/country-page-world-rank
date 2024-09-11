@@ -50,10 +50,12 @@
     font-weight: 600;
 }
 
+
+
 .flag-data-container{
     /* border: 1px solid #6C727F; */
-    max-width: 80px;
-    height: 50px;
+    max-width: 60px;
+    height: 40px;
     width: 100%;
     padding: 10px;
 }
@@ -92,4 +94,13 @@
     width: 100%;
     padding: 10px;
     margin-left: 10px;
+}
+
+@media (max-width: 1024px){
+    .region-container{
+        display: none;
+    }
+    .region-data-container{
+        display: none;
+    }
 }
