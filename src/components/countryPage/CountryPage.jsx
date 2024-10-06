@@ -18,13 +18,13 @@ const CountryPage = () => {
           population: data.population,
           area: data.area,
           capital: data.capital.join(" , "),
-          subregion: data.subregion,
+          subregion: !data.subregion?"None" : data.subregion,
           language: Object.values(data.languages).join(", "),
           currency: Object.values(data.currencies)
             .map((currency) => currency.name)
             .join(", "),
           continent: data.continents,
-          border: (data.borders.join(' , ')),
+          border: data.borders ? data.borders.join(', '): "None",
         });
       });
   },[]);
@@ -74,7 +74,7 @@ const CountryPage = () => {
         <hr />
         <div className="currencies-container">
           <p>Currencies</p>
-          <span>Indian rupee</span>
+          <span>{countryData.currency}</span>
         </div>
         <hr />
         <div className="continent-container">

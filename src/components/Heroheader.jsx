@@ -1,10 +1,10 @@
 import './Heroheader.css/'
 
-function Heroheader({setQuery}) {
+function Heroheader({setQuery, count}) {
   return (
     <>
       <div className="hero-header">
-        <div className="result-country"><p>Found 234 countries</p></div>
+        <div className="result-country"><p>Found {count} countries</p></div>
         <div className="search-sec">
           <input className='input-text'
             type="text"

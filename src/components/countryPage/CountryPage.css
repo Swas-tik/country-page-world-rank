@@ -1,7 +1,6 @@
 .country-page-container{
   width: 100%;
   height: auto;
-  padding: 40px;
   padding-top: 0px;
   display: flex;
   justify-content: center;
@@ -52,7 +51,7 @@
 }
 
 .population-area-container{
-  width: 80%;
+  width: 90%;
   display: flex;
   justify-content: space-between;
   margin-top: 50px;
@@ -73,7 +72,7 @@
   padding: 5px;
   padding-right: 15px;
   font-weight: 600;
-  border-right: 1px solid black;
+  border-right: 1px solid #1B1D1F;
 }
 
 .population span{
@@ -96,7 +95,7 @@
   padding: 5px;
   padding-right: 10px;
   font-weight: 600;
-  border-right: 1px solid black;
+  border-right: 1px solid #1B1D1F;
 }
 
 .area span{
